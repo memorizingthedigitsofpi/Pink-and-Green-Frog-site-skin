@@ -461,7 +461,9 @@ dl.meta a {
 ol.work.index.group li,
 ol.bookmark.index.group li,
 li.collection.picture.blurb.group,
-li.user.pseud.picture.blurb.group {
+li.user.pseud.picture.blurb.group,
+li.work.blurb.group,
+li.series.blurb.group {
   background: #f7eee5;
 }
 
@@ -513,6 +515,7 @@ dd.freeform.tags a {
 .actions input,
 input[type=submit],
 button,
+button[type=submit],
 .current,
 .actions label {
   background: #f7eee5;
@@ -674,4 +677,14 @@ p.notice {
   border-radius: .25em;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
+}
+
+ol.pagination.actions li span.current {
+background: #d4836e; 
+color: #f7eee5; 
+}
+
+li.own.work.blurb.group,
+li.own.series.blurb.group {
+background: #eeeeee;
 }
