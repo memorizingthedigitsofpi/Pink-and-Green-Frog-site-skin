@@ -513,6 +513,7 @@ dd.freeform.tags a {
 .action,
 .action:link,
 .actions input,
+.actions button,
 input[type=submit],
 button,
 button[type=submit],
